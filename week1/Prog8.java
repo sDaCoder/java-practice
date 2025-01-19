@@ -16,5 +16,7 @@ public class Prog8 {
             sum += Math.pow(x, i);
         }
         System.out.println("The sum of the series is: " + sum);
+
+        sc.close();
     }
 }

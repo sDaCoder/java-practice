@@ -31,5 +31,7 @@ public class Prog11
         for (int i = l1; i <= l2; i++) {
             if(Solution.checkPrime(i)) System.out.printf("%d ", i);
         }
+
+        sc.close();
     }
 }

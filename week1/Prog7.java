@@ -21,5 +21,6 @@ public class Prog7 {
         {
             System.out.printf("%d ", Solution.fib(i));
         }
+        sc.close();
     }
 }

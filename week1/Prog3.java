@@ -8,5 +8,6 @@ public class Prog3 {
         float C = (F - 32) / 1.8f;
 
         System.out.println(F + " in Farenheit corresponds to " + C + " in Celcius");
+        S.close();
     }
 }

@@ -22,5 +22,7 @@ public class Prog14 {
 
         System.out.println("The sum of all the integers of the array is: " + sum);
         System.out.println("The average of all the integers of the array is: " + (float)(sum / n));
+
+        sc.close();
     }
 }

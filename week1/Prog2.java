@@ -15,5 +15,7 @@ public class Prog2 {
         {
             System.out.println("Invalid amount enetered");
         }
+
+        sc.close();
     }
 }

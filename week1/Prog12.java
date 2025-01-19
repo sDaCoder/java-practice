@@ -24,5 +24,6 @@ public class Prog12 {
 
         System.out.printf("The GCD of %d and %d is %d\n", n1, n2, Solution.GCD(n1, n2));
 
+        S.close();
     }
 }

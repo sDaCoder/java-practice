@@ -20,6 +20,13 @@ public class Prog10 {
             float x2 = (-b - (float)(Math.sqrt(D))) * 1f / (2 * a);
             System.out.printf("The roots of the equation are %.2f and %.2f\n", x1, x2);
         }
-        else System.out.println("The Equation has complex roots.");
+        else{
+            D = -D;
+            float real = (-b * 1f) / (2 * a);
+            float img = (float)(Math.sqrt(D)) * 1f / (2 * a);
+            System.out.printf("The complex roots of the equation are (%.2f + %.2fi) and (%.2f + %.2fi)\n", real, img, real, img);
+        }
+
+        sc.close();
     }
 }

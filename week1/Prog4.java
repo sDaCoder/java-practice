@@ -11,5 +11,6 @@ public class Prog4 {
             sum = sum +  1f/(i + 1);
         }
         System.out.printf("The sum is: %.2f\n", sum);
+        S.close();
     }
 }
